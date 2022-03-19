@@ -7,7 +7,7 @@
 **Datum:** 19.3.2022. <br/>
 
 
-## 1. Uvod
+## 1 Uvod <br/><br/>
 #### 1.1 Svrha
 U ovom dokumentu biti će specificirani softverski zahtjevi za softer koji će se koristiti za rezervaciju smještajnih jedinica u kampu. Softer su naručili vlasnici obiteljskog kampa, koji bi htjeli tablični kalkulator zamijeniti prikladnim softverom. Ovaj dokument je namijenjen projekt menadžerima, koji će voditi projekt, programerma i dizajnerima, koji će osmisliti i kreirati softver, te testeri, koji će ispitati funkcionalnost sotvera i ukazati na moguće mane istog. <br/>
 Struktura dokumenta je utemeljena na predlošku definiranom u dokumentu IEEE 830-1998 Recommended Practice for Software Requirements Specifications.
@@ -34,5 +34,26 @@ Uloga softvera *Happy Camper* bi bila olakšavanje procesa vođenja zapisa o rez
 **Sezona** - razdoblje od 1. lipnja do 30. kolovoza
 
 #### 1.4 Reference
-1. 830-1998 - IEEE Recommended Practice for Software Requirements Specifications.” IEEE, 1998. [Online]. Available: http://ieeexplore.ieee.org/servlet/opac?punumber=5841
+1. 830-1998 - IEEE Recommended Practice for Software Requirements Specifications.” IEEE, 1998. [Online]. Dostupno na: http://ieeexplore.ieee.org/servlet/opac?punumber=5841
 2. Dokument opisa problemske domene
+
+#### 1.5 Struktura dokumenta
+
+## 2 Općeniti opis <br/><br/>
+#### 2.1 Perspektiva proizvoda <br/><br/>
+#### 2.2 Funkcije proizvoda <br/><br/>
+#### 2.3 Karakteristike korisnika <br/><br/>
+#### 2.4 Ograničenja <br/><br/>
+#### 2.5 Pretpostavke i ovisnosti <br/><br/>
+#### 2.1 Ostalo <br/><br/>
+## 3 Specifični funkcionalni zahtjevi <br/><br/>
+#### 3.1 Dinamika realizacije zahtjeva <br/><br/>
+## 4 Nefunkcionalni zahtjevi <br/><br/>
+#### 4.1 Izgled softvera <br/><br/>
+#### 4.2 Upotrebljivost softvera <br/><br/>
+#### 4.3 Preformanse softvera <br/><br/>
+#### 4.4 Izvođenje softvera i okruženje <br/><br/>
+#### 4.5 Sigurnost i privatnost <br/><br/>
+#### 4.6 Ostalo <br/><br/>
+## 5 Skice zaslona <br/><br/>
+
