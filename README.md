@@ -10,7 +10,7 @@ U ovom dokumentu biti će specificirani softverski zahtjevi za softer koji će s
 Struktura dokumenta je utemeljena na predlošku definiranom u dokumentu IEEE 830-1998 Recommended Practice for Software Requirements Specifications.
 
 #### 1.2 Opseg
-S obzirom da svaka rezervacija ima mnogo varijabli korištenje prikladnog softvera će naručiteljima uvelike olakšati posao. U cjeniku (tablica 1.) se mogu vidjeti cijene boravka. 
+S obzirom da svaka rezervacija ima mnogo varijabli korištenje prikladnog softvera će naručiteljima uvelike olakšati posao. U cjeniku (tablica 1.) se mogu vidjeti cijene boravka. <br/>
 Tablica 1. - sve cijene su izražene u kunama po danu, kn/dan
 |  |Sezona|Izvan sezone|
 | :---: | :---: | :---: |
@@ -23,4 +23,4 @@ Tablica 1. - sve cijene su izražene u kunama po danu, kn/dan
 |Djeca 5-12|30|20|
 |Djeca 0-4|0|50|
 
-Kamp nudi tri vrste smještaja: mobilnu kućicu, kamp kućicu i šator. Cijena za svaku vrstu smještaja se različito obračunava. Za kamp prikolicu
+Kamp nudi tri vrste smještaja: mobilnu kućicu, kamp kućicu i šator. Cijena za svaku vrstu smještaja se različito obračunava. Za kamp prikolicu i šator gost plaća cijenu po danu za odabranu vrstu smještaja + cijenu gosta po danu ovisno o dobi, na primjer odrasla osoba koja sa osmogodišnjim djetetom u sezoni rezervira šator će plaćati 140kn/dan, to jest 50kn/dan+60kn/dan+30kn/dan. U slučaju da se gost odluči za mobilnu kučicu plaćati će samo punu cijenu kućice, bez obzira na broj gostiju, kapacitet kućice je šest osoba. 
