@@ -41,7 +41,11 @@ Uloga softvera Happy Camper bi bila olakšavanje procesa vođenja zapisa o rezer
 
 ## 2 Općeniti opis <br/><br/>
 #### 2.1 Perspektiva proizvoda <br/><br/>
+Happy Camper će biti samostalno sofversko rješenje, koje zamjenjuje postojeći sustav s tabličnim kalkulatorom. Softversko rješnenje i baza podataka bi se nalazili na klijentovom računalu, pošto će samo oni moći pristupati podatcima. Happy Camper bi se koristio klijetovim hardverom za pohranu podataka, no ne bi se koristio komuikacijskim tehnologijama. Predviđeno je da bilo kakva uporaba takvih resursa bude odrađena od strane operacijskog sustava.
 #### 2.2 Funkcije proizvoda <br/><br/>
+Naručitelji softvera žele sljedeće funkcije:
+- Ograničenje pristupa softveru
+-
 #### 2.3 Karakteristike korisnika <br/><br/>
 #### 2.4 Ograničenja <br/><br/>
 #### 2.5 Pretpostavke i ovisnosti <br/><br/>
