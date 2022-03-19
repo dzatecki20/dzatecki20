@@ -11,6 +11,7 @@ Struktura dokumenta je utemeljena na predlošku definiranom u dokumentu IEEE 830
 
 #### 1.2 Opseg
 S obzirom da svaka rezervacija ima mnogo varijabli korištenje prikladnog softvera će naručiteljima uvelike olakšati posao. U cjeniku (tablica 1.) se mogu vidjeti cijene boravka. 
+Tablica 1. - sve cijene su izražene u kunama po danu, kn/dan
 |  |Sezona|Izvan sezone|
 | :---: | :---: | :---: |
 |Vrsta smještaja|  | |
@@ -22,4 +23,4 @@ S obzirom da svaka rezervacija ima mnogo varijabli korištenje prikladnog softve
 |Djeca 5-12|30|20|
 |Djeca 0-4|0|50|
 
-Kamp nudi tri vrste smještaja: mobilnu kućicu, kamp kućicu i šator. Cijena za svaku vrstu smještaja se različito obračunava. 
+Kamp nudi tri vrste smještaja: mobilnu kućicu, kamp kućicu i šator. Cijena za svaku vrstu smještaja se različito obračunava. Za kamp prikolicu
