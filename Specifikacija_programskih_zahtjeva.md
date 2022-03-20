@@ -225,15 +225,30 @@ U budućim verzijama je planirana implementacija slijedećih funckija: <br/>
 ## 4 Nefunkcionalni zahtjevi <br/><br/>
 #### 4.1 Izgled softvera <br/><br/>
 
+Feature_01 - Sustav će imati grafičko sučelje za interakciju s korisnikom.
+Feature_02 - Sustav će pratiti formalan/korporativni stil grafičkog sučelja.
+
 #### 4.2 Upotrebljivost softvera <br/><br/>
+
+Feature_03 - Sustav će imati mehanizme za smanjenje broju grešaka pri unosu zapisa.
 
 #### 4.3 Preformanse softvera <br/><br/>
 
+Feature_04 - Sustav će biti dostupan 24 sata na dan 365 dana u godini.
+Feature_05 - Sustav će imati preciznost za decimalne brojeve od 2 decimalna mjesta.
+
 #### 4.4 Izvođenje softvera i okruženje <br/><br/>
+
+Feature_06 - Sustav će biti raditi na računalima s instaliranim Windows-om 10 ili novijom verzijom.
 
 #### 4.5 Sigurnost i privatnost <br/><br/>
 
+Feature_07 - Sustav će omogućiti pristup samo osobama s ispravnim korsničkim podatcima.
+Feature_08 - Sustav će upotrebljavati podatke o gostima i kampu u skladu sa odredbama GDPR-a.
+
 #### 4.6 Ostalo <br/><br/>
+
+Nisu pronađeni dodatni nefunkcionalni zahtjevi.<br/>
 
 ## 5 Skice zaslona <br/><br/>
 
