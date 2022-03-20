@@ -85,20 +85,36 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene|<br/><br/>
 
-|Identifikator|Feature/campsite_data_import|
+|Identifikator|Feature/unit_data_import|
 | :---: |:--- |
-|Zahtjev| Sustav će omogućiti ručni unos podataka o kampu i cijena|
+|Zahtjev| Sustav će omogućiti ručni unos podataka o kampu|
 |Obrazloženje|Naručitelji podatke o rezervacijama zapisuju u aplikaciju u svrhu praćenja račuanja cijena i praćenja popunjenosti kampa.|
 |Način provjere|Uneseni podatci moraju biti vidljivi u sustavu.|
 |Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
-|Identifikator|Feature/campsite_data_update|
+|Identifikator|Feature/unit_data_update|
 | :---: |:--- |
-|Zahtjev| Sustav će omogućiti ručne izmjene unešenih podataka|
-|Obrazloženje|Naručitelji žele moći po želji izmjenjivati podatke o kampu i cijenama.|
-|Način provjere|Uneseni promjene podataka moraju biti vidljive u sustavu.|
-|Prioritet (1-5)|2|
+|Zahtjev| Sustav će omogućiti ručne izmjene unešenih podataka o kampu|
+|Obrazloženje|Naručitelji žele moći po želji izmjenjivati podatke o kampu.|
+|Način provjere|Unesene promjene podataka moraju biti vidljive u sustavu.|
+|Prioritet (1-5)|1|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/prices_import|
+| :---: |:--- |
+|Zahtjev| Sustav će omogućiti ručni unos cjenika|
+|Obrazloženje|Naručitelji žele moći unositi podatke o cijenama usluga.|
+|Način provjere|Uneseni podatci moraju biti vidljivi u sustavu.|
+|Prioritet (1-5)|1|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/prices_update|
+| :---: |:--- |
+|Zahtjev| Sustav će omogućiti ručne izmjene cjenika|
+|Obrazloženje|Naručitelji žele moći po želji izmjenjivati cjenik.|
+|Način provjere|Unesene promjene podataka moraju biti vidljive u sustavu.|
+|Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
 |Identifikator|Feature/raservation_data_import|
@@ -166,6 +182,7 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Prioritet (1-5)|5|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
+
 |Identifikator|Feature/income_through_year|
 | :---: |:--- |
 |Zahtjev| Sustav će prikazivati prihod ostvaren u tekućoj godini.|
@@ -203,8 +220,10 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 U početnoj verziji sofvera biti će implementirane samo najprioritetnije funkcije: <br/>
 
 - Feature/login
-- Feature/campsite_data_import
-- Feature/campsite_data_update
+- Feature/unit_data_import
+- Feature/unit_data_update
+- Feature/prices_data_import
+- Feature/prices_data_update
 - Feature/reservation_data_import
 - Feature/reservation_data_update
 - Feature/price_calculation
@@ -251,4 +270,12 @@ Feature_08 - Sustav će upotrebljavati podatke o gostima i kampu u skladu sa odr
 Nisu pronađeni dodatni nefunkcionalni zahtjevi.<br/>
 
 ## 5 Skice zaslona <br/><br/>
+#### 5.1 Skica zaslona za Prijavu u sustav
+![Login screen](https://user-images.githubusercontent.com/100710102/159169839-76f594df-c20c-4ea5-87a3-dee771746f24.png)
+
+#### 5.2 Skica zaslona za Unos podataka o jedinici
+![Unit_import](https://user-images.githubusercontent.com/100710102/159170601-13e9d78f-12eb-4714-934b-dd0670d9affb.png)
+
+#### 5.3 Skica zaslona za Ispis trenutnih gostiju
+![Current_guest_list](https://user-images.githubusercontent.com/100710102/159171101-f8712727-e237-4ee2-bda0-6cb8fa9a96d2.png)
 
