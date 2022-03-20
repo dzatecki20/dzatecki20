@@ -85,7 +85,7 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene|<br/><br/>
 
-|Identifikator|Feature/manual_data_import|
+|Identifikator|Feature/campsite_data_import|
 | :---: |:--- |
 |Zahtjev| Sustav će omogućiti ručni unos podataka o kampu i cijena|
 |Obrazloženje|Naručitelji podatke o rezervacijama zapisuju u aplikaciju u svrhu praćenja račuanja cijena i praćenja popunjenosti kampa.|
@@ -93,7 +93,7 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
-|Identifikator|Feature/manual_data_update|
+|Identifikator|Feature/campsite_data_update|
 | :---: |:--- |
 |Zahtjev| Sustav će omogućiti ručne izmjene unešenih podataka|
 |Obrazloženje|Naručitelji žele moći po želji izmjenjivati podatke o kampu i cijenama.|
@@ -106,6 +106,14 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Zahtjev| Sustav će omogućiti unos rezervacije u bazu podataka.|
 |Obrazloženje|naručitelji žele moći pratiti podatke o rezervacijama.|
 |Način provjere|Uneseni podatci o rezervaciji moraju biti vidljivi u sustavu.|
+|Prioritet (1-5)|1|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/raservation_data_update|
+| :---: |:--- |
+|Zahtjev| Sustav će omogućiti unos izmjene podataka o rezervacijama.|
+|Obrazloženje|naručitelji žele moći po potrebi mijenjati podatke o rezervacijama.|
+|Način provjere|Unesene promjene u podatcima o rezervaciji moraju biti vidljivi u sustavu.|
 |Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
@@ -182,7 +190,7 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Prioritet (1-5)|5|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
-|Identifikator|Feature/occupancy_sezona|
+|Identifikator|Feature/occupancy_season|
 | :---: |:--- |
 |Zahtjev| Sustav će prikazivati prihod ostvaren u tekućoj godini.|
 |Obrazloženje|Naručitelji žele moći vidjeti koliko je gostiju ostajalo u kojoj vrsti jedinica, te koliko dana u sezoni je određena vrsta jedinica bila zauzeta.|
@@ -191,6 +199,28 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
 #### 3.1 Dinamika realizacije zahtjeva <br/><br/>
+
+U početnoj verziji sofvera biti će implementirane samo najprioritetnije funkcije: <br/>
+
+- Feature/login
+- Feature/campsite_data_import
+- Feature/campsite_data_update
+- Feature/reservation_data_import
+- Feature/reservation_data_update
+- Feature/price_calculation
+- Feature/current_guest_list  <br/>
+
+U budućim verzijama je planirana implementacija slijedećih funckija: <br/>
+
+- Feature/return_discount
+- Feature/reservation_calendar
+- Feature/free_unit_search
+- Feature/current_free_unit_search
+- Feature/current_occupied_unit_search
+- Feature/income_through_year
+- Feature/occupancy_year
+- Feature/occupancy_season
+<br/>
 
 ## 4 Nefunkcionalni zahtjevi <br/><br/>
 #### 4.1 Izgled softvera <br/><br/>
