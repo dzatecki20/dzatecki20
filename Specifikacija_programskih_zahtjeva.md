@@ -76,7 +76,6 @@ Podatke o broju jedinica, vrsti jedinica, maksmialnom kapacitetu jedinica i cije
 Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 
 ## 3 Specifični funkcionalni zahtjevi <br/><br/>
-#### 3.1 Dinamika realizacije zahtjeva <br/><br/>
 
 |Identifikator|Feature/login|
 | :---: |:--- |
@@ -99,7 +98,7 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Zahtjev| Sustav će omogućiti ručne izmjene unešenih podataka|
 |Obrazloženje|Naručitelji žele moći po želji izmjenjivati podatke o kampu i cijenama.|
 |Način provjere|Uneseni promjene podataka moraju biti vidljive u sustavu.|
-|Prioritet (1-5)|3|
+|Prioritet (1-5)|2|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
 |Identifikator|Feature/raservation_data_import|
@@ -172,16 +171,26 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Zahtjev| Sustav će prikazivati listu trenutnih gostiju i u kojoj jedinici se nalaze.|
 |Obrazloženje|Naručitelji žele moći vidjeti listu gostiju koji se trenutno nalaze u kampu i u kojoj jendici se nalaze.|
 |Način provjere|Nakon unosa par rezervacija pokreće se funkcija i provjera se prikazuje li sustav ispravne podatke.|
-|Prioritet (1-5)|3|
+|Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
-|Identifikator|Feature/Income_through_year|
+|Identifikator|Feature/occupancy_year|
+| :---: |:--- |
+|Zahtjev| Sustav će popunjenost u tekućoj godini.|
+|Obrazloženje|Naručitelji žele moći vidjeti koliko je gostiju ostajalo u kojoj vrsti jedinica, te koliko dana u godini je određena vrsta jedinica bila zauzeta.|
+|Način provjere|Nakon unosa par rezervacija pokreće se funkcija i provjera se odgovaraju li prikazanano stanje previđenom stanju.|
+|Prioritet (1-5)|5|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/occupancy_sezona|
 | :---: |:--- |
 |Zahtjev| Sustav će prikazivati prihod ostvaren u tekućoj godini.|
-|Obrazloženje|Naručitelji žele moći vidjeti sumu prihoda ostvarenih u tekućoj godini, prihodu tekuće godine doprinose samo rezervacije čiji početak termina se nalazi u tekućoj godini.|
+|Obrazloženje|Naručitelji žele moći vidjeti koliko je gostiju ostajalo u kojoj vrsti jedinica, te koliko dana u sezoni je određena vrsta jedinica bila zauzeta.|
 |Način provjere|Nakon unosa par rezervacija pokreće se funkcija i provjera se odgovaraju li prikazanano stanje previđenom stanju.|
-|Prioritet (1-5)|3|
+|Prioritet (1-5)|5|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+#### 3.1 Dinamika realizacije zahtjeva <br/><br/>
 
 ## 4 Nefunkcionalni zahtjevi <br/><br/>
 #### 4.1 Izgled softvera <br/><br/>
