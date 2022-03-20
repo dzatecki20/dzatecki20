@@ -83,15 +83,47 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Zahtjev| Sustav koji omogućava pristup samo osobama s ispravnim korisničkim podatcima|
 |Obrazloženje|U aplikaciji se nalaze povjerljivi osobni podatci gostiju, te podatci o kampu i cijenama. Pristup takvim podatcima trebaju imati samo ovlaštene osobe. |
 |Način provjere|Pokušaj pristupa aplikaciji s ispravnim korisničkim podatcima rezultira ulaskom u aplikaciju, dok s neispravnim rezultira zabranom ulaska.|
-|Prioritet (1-5)|5|
+|Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene|<br/><br/>
 
-|Identifikator|Feature/manual_import_data|
+|Identifikator|Feature/manual_data_import|
 | :---: |:--- |
-|Zahtjev| Sustav će omogućiti ručni unos jedne rezervacije|
-|Obrazloženje|Vlasnici podtke o rezervacijama zapisuju u aplikaciju u svrhu praćenja rezervacije, račuanja cijene i dodavanja popusta|
+|Zahtjev| Sustav će omogućiti ručni unos podataka o kampu i cijena|
+|Obrazloženje|Vlasnici podatke o rezervacijama zapisuju u aplikaciju u svrhu praćenja račuanja cijena i praćenja popunjenosti kampa.|
 |Način provjere|Uneseni podatci moraju biti vidljivi u sustavu.|
 |Prioritet (1-5)|1|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/manual_data_update|
+| :---: |:--- |
+|Zahtjev| Sustav će omogućiti ručne izmjene unešenih podataka|
+|Obrazloženje|Vlasnici žele moći po želji izmjenjivati podatke o kampu i cijenama.|
+|Način provjere|Uneseni promjene podataka moraju biti vidljive u sustavu.|
+|Prioritet (1-5)|3|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/raservation_data_import|
+| :---: |:--- |
+|Zahtjev| Sustav će omogućiti unos rezervacije u bazu podataka.|
+|Obrazloženje|Vlasnici žele moći pratiti rezervacije.|
+|Način provjere|Uneseni podatci o rezervaciji moraju biti vidljivi u sustavu.|
+|Prioritet (1-5)|2|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/return_discount|
+| :---: |:--- |
+|Zahtjev| Sustav će automatkski na cijenu gostiju koji ponovno ostaju u kampu obračunavati pet posto popusta.|
+|Obrazloženje|Vlasnici gostima koji ponovno ostaju u kmapu daju dodatni popust.|
+|Način provjere|Gost koji nije prvi put u kampu, to jest već ima zapis o prijašnjim rezevacijama u bazi podataka, dobiva popust. Gost koji se prvi put upisuje u bazu podataka, to jest prvi put ostaje u kampu, ne dobiva takav popust.|
+|Prioritet (1-5)|5|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/return_discount|
+| :---: |:--- |
+|Zahtjev| Sustav će automatkski na cijenu gostiju koji ponovno ostaju u kampu obračunavati pet posto popusta.|
+|Obrazloženje|Vlasnici gostima koji ponovno ostaju u kmapu daju dodatni popust.|
+|Način provjere|Gost koji nije prvi put u kampu, to jest već ima zapis o prijašnjim rezevacijama u bazi podataka, dobiva popust. Gost koji se prvi put upisuje u bazu podataka, to jest prvi put ostaje u kampu, ne dobiva takav popust.|
+|Prioritet (1-5)|5|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
 ## 4 Nefunkcionalni zahtjevi <br/><br/>
