@@ -78,6 +78,22 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 ## 3 Specifični funkcionalni zahtjevi <br/><br/>
 #### 3.1 Dinamika realizacije zahtjeva <br/><br/>
 
+|Identifikator|Feature/login|
+| :---: | :---: |
+|Zahtjev| Sustav koji omogućava pristup samo osobama s ispravnim korisničkim podatcima|
+|Obrazloženje|U aplikaciji se nalaze povjerljivi osobni podatci gostiju, te podatci o kampu i cijenama. Pristup takvim podatcima trebaju imati samo ovlaštene osobe. |
+|Način provjere|Pokušaj pristupa aplikaciji s ispravnim korisničkim podatcima rezultira ulaskom u aplikaciju, dok s neispravnim rezultira zabranom ulaska.|
+|Prioritet (1-5)|5|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene|<br/><br/>
+
+|Identifikator|Feature/manual_import_data|
+| :---: | :---: |
+|Zahtjev| Sustav će omogućiti ručni unos jedne rezervacije|
+|Obrazloženje|Vlasnici podtke o rezervacijama zapisuju u aplikaciju u svrhu praćenja rezervacije, račuanja cijene i dodavanja popusta|
+|Način provjere|Uneseni podatci moraju biti vidljivi u sustavu.|
+|Prioritet (1-5)|1|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
 ## 4 Nefunkcionalni zahtjevi <br/><br/>
 #### 4.1 Izgled softvera <br/><br/>
 
