@@ -89,7 +89,7 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Identifikator|Feature/manual_data_import|
 | :---: |:--- |
 |Zahtjev| Sustav će omogućiti ručni unos podataka o kampu i cijena|
-|Obrazloženje|Vlasnici podatke o rezervacijama zapisuju u aplikaciju u svrhu praćenja račuanja cijena i praćenja popunjenosti kampa.|
+|Obrazloženje|Naručitelji podatke o rezervacijama zapisuju u aplikaciju u svrhu praćenja račuanja cijena i praćenja popunjenosti kampa.|
 |Način provjere|Uneseni podatci moraju biti vidljivi u sustavu.|
 |Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
@@ -97,7 +97,7 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Identifikator|Feature/manual_data_update|
 | :---: |:--- |
 |Zahtjev| Sustav će omogućiti ručne izmjene unešenih podataka|
-|Obrazloženje|Vlasnici žele moći po želji izmjenjivati podatke o kampu i cijenama.|
+|Obrazloženje|Naručitelji žele moći po želji izmjenjivati podatke o kampu i cijenama.|
 |Način provjere|Uneseni promjene podataka moraju biti vidljive u sustavu.|
 |Prioritet (1-5)|3|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
@@ -105,25 +105,82 @@ Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 |Identifikator|Feature/raservation_data_import|
 | :---: |:--- |
 |Zahtjev| Sustav će omogućiti unos rezervacije u bazu podataka.|
-|Obrazloženje|Vlasnici žele moći pratiti rezervacije.|
+|Obrazloženje|naručitelji žele moći pratiti podatke o rezervacijama.|
 |Način provjere|Uneseni podatci o rezervaciji moraju biti vidljivi u sustavu.|
-|Prioritet (1-5)|2|
+|Prioritet (1-5)|1|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
 |Identifikator|Feature/return_discount|
 | :---: |:--- |
-|Zahtjev| Sustav će automatkski na cijenu gostiju koji ponovno ostaju u kampu obračunavati pet posto popusta.|
-|Obrazloženje|Vlasnici gostima koji ponovno ostaju u kmapu daju dodatni popust.|
+|Zahtjev| Sustav će automatkski na cijenu ostanka u kampu gostiju koji ponovno ostaju u kampu obračunavati pet posto popusta.|
+|Obrazloženje|Naručiitelji gostima koji ponovno ostaju u kmapu daju dodatni popust.|
 |Način provjere|Gost koji nije prvi put u kampu, to jest već ima zapis o prijašnjim rezevacijama u bazi podataka, dobiva popust. Gost koji se prvi put upisuje u bazu podataka, to jest prvi put ostaje u kampu, ne dobiva takav popust.|
+|Prioritet (1-5)|3|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/price_calculation|
+| :---: |:--- |
+|Zahtjev| Sustav će automatkski račuanti cijenu ostanka u kampu.|
+|Obrazloženje|Naručitelji žele da sustav automatski računa cijenu ostanka u kampu.|
+|Način provjere|Gost koji nije prvi put u kampu, to jest već ima zapis o prijašnjim rezevacijama u bazi podataka, dobiva popust. Gost koji se prvi put upisuje u bazu podataka, to jest prvi put ostaje u kampu, ne dobiva takav popust.|
+|Prioritet (1-5)|1|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/reservation_calendar|
+| :---: |:--- |
+|Zahtjev| Sustav će u kalendaru prikazivati unešene rezervacije, svaka jedinica ima svoj kalendar.|
+|Obrazloženje|Kalendar će korisnicima omogućiti lakše snalaženje u rezervacijama.|
+|Način provjere|Nakon uspješnog unosa rezervacije provjerava se prikazuje li se termin ispravno u kalendaru.|
+|Prioritet (1-5)|3|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/free_unit_search|
+| :---: |:--- |
+|Zahtjev| Sustav će omogučiti pretraživanje slobodnih jedinica s obzirom na odbrani termin.|
+|Obrazloženje|Naručitelji žele moći vidjeti koje su jedinice slobodne u odabranom terminu. Termin se bira odabirom početnog i završnog datuma. Da bi jedinica bila slobodna mora biti nerezervirana svaki dan između zadanog početnog i završnog datuma termina.|
+|Način provjere|Nakon unosa par rezervacija i željenog termina pretraživanja pokreće se pretraživanje i provjerava se navode li se zauzete jedince kao slobodne.|
+|Prioritet (1-5)|4|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+
+|Identifikator|Feature/current_free_unit_search|
+| :---: |:--- |
+|Zahtjev| Sustav će omogučiti pretraživanje slobodnih jedinica u trenutku pretrage.|
+|Obrazloženje|Naručitelji žele moći vidjeti koje su jedinice slobodne u ternutku pretrage, to jest koje jedinice su trenutno slobodne.|
+|Način provjere|Nakon unosa par rezervacija pokreće se pretraživanje i provjerava se navode li se zauzete jedince kao slobodne.|
 |Prioritet (1-5)|5|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
-|Identifikator|Feature/return_discount|
+|Identifikator|Feature/current_occupied_unit_search|
 | :---: |:--- |
-|Zahtjev| Sustav će automatkski na cijenu gostiju koji ponovno ostaju u kampu obračunavati pet posto popusta.|
-|Obrazloženje|Vlasnici gostima koji ponovno ostaju u kmapu daju dodatni popust.|
-|Način provjere|Gost koji nije prvi put u kampu, to jest već ima zapis o prijašnjim rezevacijama u bazi podataka, dobiva popust. Gost koji se prvi put upisuje u bazu podataka, to jest prvi put ostaje u kampu, ne dobiva takav popust.|
+|Zahtjev| Sustav će omogučiti pretraživanje zauzetih jedinica u trenutku pretrage.|
+|Obrazloženje|Naručitelji žele moći vidjeti koje su jedinice zauzete u ternutku pretrage, to jest koje jedinice su trenutno nisu slobodne.|
+|Način provjere|Nakon unosa par rezervacija pokreće se pretraživanje i provjerava se navode li se slobodne jedince kao zauzete.|
 |Prioritet (1-5)|5|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/income_through_year|
+| :---: |:--- |
+|Zahtjev| Sustav će prikazivati prihod ostvaren u tekućoj godini.|
+|Obrazloženje|Naručitelji žele moći vidjeti sumu prihoda ostvarenih u tekućoj godini, prihodu tekuće godine doprinose samo rezervacije čiji početak termina se nalazi u tekućoj godini.|
+|Način provjere|Nakon unosa par rezervacija pokreće se funkcija i provjera se odgovaraju li prikazanano stanje previđenom stanju.|
+|Prioritet (1-5)|5|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/current_guests_list|
+| :---: |:--- |
+|Zahtjev| Sustav će prikazivati listu trenutnih gostiju i u kojoj jedinici se nalaze.|
+|Obrazloženje|Naručitelji žele moći vidjeti listu gostiju koji se trenutno nalaze u kampu i u kojoj jendici se nalaze.|
+|Način provjere|Nakon unosa par rezervacija pokreće se funkcija i provjera se prikazuje li sustav ispravne podatke.|
+|Prioritet (1-5)|3|
+|Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
+
+|Identifikator|Feature/Income_through_year|
+| :---: |:--- |
+|Zahtjev| Sustav će prikazivati prihod ostvaren u tekućoj godini.|
+|Obrazloženje|Naručitelji žele moći vidjeti sumu prihoda ostvarenih u tekućoj godini, prihodu tekuće godine doprinose samo rezervacije čiji početak termina se nalazi u tekućoj godini.|
+|Način provjere|Nakon unosa par rezervacija pokreće se funkcija i provjera se odgovaraju li prikazanano stanje previđenom stanju.|
+|Prioritet (1-5)|3|
 |Izvor|Korisnički zahtjevi definirani u Dokumentu opisa problemske domene.|<br/><br/>
 
 ## 4 Nefunkcionalni zahtjevi <br/><br/>
