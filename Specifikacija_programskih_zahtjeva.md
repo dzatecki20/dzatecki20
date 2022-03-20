@@ -10,7 +10,7 @@
 ## 1 Uvod <br/><br/>
 #### 1.1 Svrha
 U ovom dokumentu biti će specificirani softverski zahtjevi za softer koji će se koristiti za rezervaciju smještajnih jedinica u kampu. Softer su naručili vlasnici obiteljskog kampa, koji bi htjeli tablični kalkulator zamijeniti prikladnim softverom. Ovaj dokument je namijenjen projekt menadžerima, koji će voditi projekt, programerma i dizajnerima, koji će osmisliti i kreirati softver, te testeri, koji će ispitati funkcionalnost sotvera i ukazati na moguće mane istog. <br/>
-Struktura dokumenta je utemeljena na predlošku definiranom u dokumentu IEEE 830-1998 Recommended Practice for Software Requirements Specifications.
+Struktura dokumenta je utemeljena na predlošku definiranom u dokumentu IEEE 830-1998 Recommended Practice for Software Requirements Specifications.<br/>
 
 #### 1.2 Opseg
 S obzirom da svaka rezervacija ima mnogo varijabli korištenje prikladnog softvera će naručiteljima uvelike olakšati posao. U cjeniku (tablica 1.) se mogu vidjeti cijene boravka. <br/> <br/>
@@ -32,7 +32,7 @@ Uloga softvera Happy Camper bi bila olakšavanje procesa vođenja zapisa o rezer
 
 #### 1.3 Defincije, akronimi i skraćenice
 **Sezona** - razdoblje od 1. lipnja do 30. kolovoza
-**Jedinica** - jedan smještaj, može biti šator, kamp prikolica ili mobilna kućica
+**Jedinica** - jedan smještaj, može biti šator, kamp prikolica ili mobilna kućica<br/>
 
 #### 1.4 Reference
 1. 830-1998 - IEEE Recommended Practice for Software Requirements Specifications.” IEEE, 1998. [Online]. Dostupno na: http://ieeexplore.ieee.org/servlet/opac?punumber=5841
@@ -42,7 +42,7 @@ Uloga softvera Happy Camper bi bila olakšavanje procesa vođenja zapisa o rezer
 
 ## 2 Općeniti opis <br/><br/>
 #### 2.1 Perspektiva proizvoda <br/><br/>
-Happy Camper će biti samostalno sofversko rješenje, koje zamjenjuje postojeći sustav s tabličnim kalkulatorom. Softversko rješnenje i baza podataka bi se nalazili na klijentovom računalu, pošto će samo oni moći pristupati podatcima. Happy Camper bi se koristio klijetovim hardverom za pohranu podataka, no ne bi se koristio komuikacijskim tehnologijama. Predviđeno je da bilo kakva uporaba takvih resursa bude odrađena od strane operacijskog sustava.
+Happy Camper će biti samostalno sofversko rješenje, koje zamjenjuje postojeći sustav s tabličnim kalkulatorom. Softversko rješnenje i baza podataka bi se nalazili na klijentovom računalu, pošto će samo oni moći pristupati podatcima. Happy Camper bi se koristio klijetovim hardverom za pohranu podataka, no ne bi se koristio komuikacijskim tehnologijama. Time bi se omogućilo da aplikacija funkcionira i bez interneta. Predviđeno je da bilo kakva uporaba takvih resursa bude odrađena od strane operacijskog sustava.
 
 #### 2.2 Funkcije proizvoda <br/><br/>
 Naručitelji softvera žele sljedeće funkcije:
@@ -64,12 +64,16 @@ Naručitelji softvera žele sljedeće funkcije:
   - ostvareni prihod tokom godine
 
 #### 2.3 Karakteristike korisnika <br/><br/>
+Korisnici i naručitelji softvera je bračni par srednjih godina, s područja srednje Dalmacije. Postoji samo jedna korisnička uloga, _vlasnik kampa_. Svaki od vlasnika će imati svoje podatke za prijavu, kako bi se u slučaju promjene podataka u aplikaciji moglo vidjeti tko ih je napravio. Vlasnici su srednje informatički pismeni.
 
 #### 2.4 Ograničenja <br/><br/>
+Pošto se u aplikaciji nalaze privatni podatci gostiju, važno je da ti poadtci budu sigurni, što će biti postignuto GDPR odredbama. Radi sigurnosti svaki od vlasnika će imati svoje korisničke podatke. Pošto će se podatci spremati na klijentov hardver, implementirati će se mjere zaštite podataka. Naurčitelji se nisu izjasnili oko nikakvih posebnih zahtjeva oko alata, programskog jezika ili posebnih metoda za izradu softvera. Preptostavlja se da naurčitelji imaju standardno računalo na kojem će izvoditi aplikaciju.<br/><br/>
 
 #### 2.5 Pretpostavke i ovisnosti <br/><br/>
+Podatke o broju jedinica, vrsti jedinica, maksmialnom kapacitetu jedinica i cijenama vlasnici mogu mijenjati bilo kad tokom godine. Promjene podataka navedenih u prošloj ne bi trebale utjecati na goste koji se trenutno nalaze u kampu.<br/><br/>
 
-#### 2.1 Ostalo <br/><br/>
+#### 2.6 Ostalo <br/><br/>
+Nema potrebe za elaboracijom dodatnih aspekata.<br/><br/>
 
 ## 3 Specifični funkcionalni zahtjevi <br/><br/>
 #### 3.1 Dinamika realizacije zahtjeva <br/><br/>
